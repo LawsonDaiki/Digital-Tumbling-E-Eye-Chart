@@ -7,7 +7,7 @@ const inicialWidth = Math.round(getApproximateWidth()); // valor inicial da larg
 
 function getApproximateWidth() {
     // valor inicial baseado no cálculo usando o tamanho padrão de um cartão de crédito e a taxa de pixelização do monitor
-    return 8560 * window.devicePixelRatio / 26.3; 
+    return 8560 * window.devicePixelRatio / 15; 
 }
 
 function calibrationAlert() {
