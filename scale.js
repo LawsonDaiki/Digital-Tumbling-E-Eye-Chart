@@ -3,7 +3,7 @@ const brush1 = scale.getContext('2d');
 brush1.fillStyle = 'lightgray';
 brush1.beginPath();
 
-const inicialWidth = getApproximateWidth(); // valor inicial da largura do optotipo, valor inicial calculado por aproximação, apenas é adicionada ou subtraida pela variável counter
+const inicialWidth = Math.round(getApproximateWidth()); // valor inicial da largura do optotipo, valor inicial calculado por aproximação, apenas é adicionada ou subtraida pela variável counter
 
 function getApproximateWidth() {
     // valor inicial baseado no cálculo usando o tamanho padrão de um cartão de crédito e a taxa de pixelização do monitor
